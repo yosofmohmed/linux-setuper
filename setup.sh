@@ -6,7 +6,7 @@ sleep 3
 
 echo "Installing Some packages..."
 
-sudo apt install -y i3 xinit polybar nitrogen pulseaudio
+sudo apt install -y i3 xinit polybar nitrogen pulseaudio kitty chromium
 
 mkdir -p /home/yosof/.config/i3
 
