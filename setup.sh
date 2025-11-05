@@ -6,9 +6,9 @@ sleep 3
 
 echo "Installing Some packages..."
 
-sudo apt install i3 xinit polybar nitrogen pulseaudio
+sudo apt install -y i3 xinit polybar nitrogen pulseaudio
 
-mkdir /home/yosof/.config/i3
+mkdir -p /home/yosof/.config/i3
 
 wget https://raw.githubusercontent.com/yosofmohmed/linux-setuper/main/config -O /home/yosof/.config/i3/config
 
